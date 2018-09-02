@@ -156,13 +156,14 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #373737;
+  background: #1F292F;
   padding: 20px 0;
   height: 90px;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
 }
 
 #header #logo {
+  color: #CCCCCC;
   float: left;
 }
 
@@ -178,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color:  #CCCCCC;
 }
 
 #header #logo img {
@@ -200,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .is-sticky #header {
-  background: #373737;
+  background: #1F292F;
 }
 
 /*--------------------------------------------------------------
@@ -279,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 15px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #CCCCCC;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -287,8 +288,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #fff;
-  border: 2px solid #fff;
+  color: #CCCCCC;
+  border: 2px solid #CCCCCC;;
   border-radius: 10%;
 }
 
@@ -522,7 +523,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #services h3 {
-  color: #fff;
+  color: #CCCCCC;
   font-size: 3em;
   text-align: left;
   letter-spacing: 2px;
@@ -533,12 +534,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services h4 {
-  color: #fff;
+  color: #CCCCCC;
   font-weight: 700;
   margin: 20px 0 20px;
 }
 #services p {
-  color: #fff;
+  color: #CCCCCC;
   font-size: 14px;
   padding-bottom: 5px;
 }
@@ -547,21 +548,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services li {
   text-align: center;
   font-weight: 700;
-  color: #fff;
+  color: #CCCCCC;
   font-size: 14px;
   padding-right: 50px;
   padding-bottom: 10px;
+  list-style: none;
 }
 
 
 #services i{
     font-size: 32px;
-    color: #fff;
+    color: #CCCCCC;
     background: none;
     width: 80px;
     height: 80px;
     line-height: 2.4em;
-    border: 2px solid #fff;
+    border: 2px solid #CCCCCC;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -573,24 +575,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     -ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 #services i:hover {
-  color : #5FB3B3;
+  color : #fff;
 }
 
 
 
 #services .service-title {
-  color: #fff;;
+  color: #CCCCCC;
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
 #service .section-title-divider{
-  color: #fff; 
+  color: #CCCCCC;
 }
 
 #services .service-title a {
-  color: #fff;;
+  color: #CCCCCC;
 }
 
 #services .service-description {
@@ -602,6 +604,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Portfolio Section
 --------------------------------*/
+.gallery{
+  background-color: #F7F7F7;
+  padding: 100px;
+}
 
 .gallery h3{
   color: #273943;
@@ -612,18 +618,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
+
 #portfolio .section-title-divider{
   margin-bottom: 80px;
 }
-
-
-.gallery{
-
-  background-color: #F7F7F7;
-  padding: 80px;
-
-}
-
 .step{
   margin-bottom: 30px;
 }
@@ -633,33 +631,61 @@ body.mobile-nav-active #mobile-nav-toggle {
 # connect
 --------------------------------------------------------------*/
 #contact{
-  background-color: #172F39;
-  padding: 40px;
+  background-color: #1F292F;
+  padding: 120px;
 }
-#contact h2{
-  color: #fff;
-  font-size: 3em;
-  text-align: left;
-  letter-spacing: 2px;
-  font-weight: 700;
-  margin-bottom: .7em;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+#contact h3{
+  text-transform: uppercase;
   text-align: center;
+  color: #CCCCCC;
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
-.social a{
-  font-size: 4.5rem;
-  padding: 2rem;
+#contact .socilly{
+  padding: 100px;
+  align-items:  center;
 }
+
+
+#contact .soc-text{
+  text-transform: uppercase;
+  color: #CCCCCC;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+#contact .social{
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contact .soc-item{
+  padding: 0 5px ;
+  font-size: 2.5rem;
+  display: inline;
+}
+#contact .line1{
+  size: 25%;
+  color: #CCCCCC;
+}
+
+
 .fa-facebook {
-  color: #3b5998;
+  color: #CCCCCC;
 
 }
 .fa-twitter{
-  color: #00aced;
+  color: #CCCCCC;
 }
-.fa-instgram{
-  color: #517fa4;
+.fa-instagram{
+   color: #CCCCCC;
 }
 
 .fa-facebook:hover,
@@ -668,32 +694,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #d5d5d5;
 }
 
-
-
-.footer .row{
-  background-color: #172F39;
-  padding: 2rem 2rem 2rem;
-  color: white;
-}
-.footer i{
-  font-size: 40px;
-}
-
-.footer strong{
-  font-size: 30px;
-}
-.footer p{
-  font-size: 20px;
-}
-
-
-.para{
-  color: #fff;
-  font-size: 2em;
-  text-align: left;
-  letter-spacing: 1.5px;
-  font-weight: 600;
-  margin-bottom: .7em;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+.footer{
   text-align: center;
+  padding: 100px;
+
+}
+
+.footer i{
+  color: #CCCCCC;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 0px;
+}
+.footer a{
+  color: #CCCCCC;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0px;
 }
