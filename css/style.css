@@ -8,7 +8,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #0F174C;
+  background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -644,8 +644,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .socilly{
-  padding: 100px;
-  align-items:  center;
+  padding-top: 4rem;
 }
 
 
@@ -655,12 +654,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   letter-spacing: 0.5px;
   font-weight: 500;
-  text-align: center;
-  padding-bottom: 10px;
-  margin: 0px;
 }
 #contact .social{
-  text-align: center;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -672,20 +667,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline;
 }
 #contact .line1{
-  size: 25%;
+  width: 50%;
   color: #CCCCCC;
 }
 
 
-.fa-facebook {
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
   color: #CCCCCC;
-
-}
-.fa-twitter{
-  color: #CCCCCC;
-}
-.fa-instagram{
-   color: #CCCCCC;
 }
 
 .fa-facebook:hover,
@@ -695,8 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer{
-  text-align: center;
-  padding: 100px;
+  padding-top: 4rem;
 
 }
 
@@ -705,15 +694,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 0.5px;
   font-size: 20px;
   font-weight: 500;
-  padding: 10px;
-  margin: 0px;
 }
 .footer a{
   color: #CCCCCC;
   font-size: 15px;
   letter-spacing: 0.5px;
   font-weight: 500;
-  text-align: center;
-  padding-bottom: 10px;
-  margin: 0px;
 }
+@media (max-width: 768px) {
