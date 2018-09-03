@@ -452,7 +452,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 100px;
   height: 3px;
-  background: #03C4EB;
+  background: #333;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -587,9 +587,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 40px;
   text-transform: uppercase;
 }
-#service .section-title-divider{
-  color: #CCCCCC;
-}
+#services .line2{
+   width: 20%;
+   height: 3px;
+  background: #CCCCCC;
+  margin-bottom: 20px;
+} 
 
 #services .service-title a {
   color: #CCCCCC;
