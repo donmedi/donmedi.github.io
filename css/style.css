@@ -223,6 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li {
+  margin: 4px;
   position: relative;
   white-space: nowrap;
 }
@@ -450,7 +451,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-title-divider {
-  width: 100px;
+  width: 20%;
   height: 3px;
   background: #333;
   margin: 0 auto;
@@ -513,7 +514,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services {
   background-size: cover;
   background-color: #1D1D1E;
-  padding: 80px 0 60px 0;
+  padding: 80px 0 80px 0;
   text-align: center;
 }
 #service .service-description{
@@ -609,7 +610,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .gallery{
   background-color: #F7F7F7;
-  padding: 100px;
+  padding: 100px 0 100px 0;
 }
 
 .gallery h3{
@@ -635,7 +636,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #contact{
   background-color: #1F292F;
-  padding: 120px;
+  padding-top: 120px;
+  padding-bottom: 100px
 }
 #contact h3{
   text-transform: uppercase;
@@ -673,6 +675,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 50%;
   color: #CCCCCC;
 }
+#contact .line3{
+  width: 100%;
+  color: #CCCCCC;
+}
 
 
 .fa-facebook,
@@ -689,7 +695,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer{
   padding-top: 4rem;
-
+  margin-bottom: 140px
 }
 
 .footer i{
@@ -697,11 +703,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 0.5px;
   font-size: 20px;
   font-weight: 500;
+  padding-bottom: 10px;
 }
 .footer a{
   color: #CCCCCC;
   font-size: 15px;
   letter-spacing: 0.5px;
   font-weight: 500;
+  padding-bottom: 10px;
 }
+#contact .brut{
+  font-weight: 200;
+  color: #CCCCCC;
+}
+
+
+
+
 @media (max-width: 768px) {
+    #services h3{
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+    #portfolio h3{
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+    #contact h3{
+      font-size: 2rem;
+      font-weight: 400;
+    }
+}
