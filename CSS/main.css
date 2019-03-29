@@ -317,7 +317,7 @@ body header .typewriter .anim-typewriter {
   }
 }
 
-@media (max-width: 769px) and (max-width: 575.98px) and (max-width: 320px) {
+@media (max-width: 769px) and (max-width: 575.98px) {
   body header #welcome {
     height: 100vh;
     padding: 160px 20px 160px;
@@ -572,7 +572,7 @@ body #works .shw-wrk .img-cnt .imgText {
   left: 20px;
 }
 
-@media (max-width: 769px) and (max-width: 575.98px) and (max-width: 320px) {
+@media (max-width: 769px) and (max-width: 575.98px) {
   body #works {
     overflow: hidden;
     padding-top: 50px;

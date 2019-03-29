@@ -262,8 +262,8 @@ body{
     }
     }
 
-    @media (max-width: 769px) and (max-width: 575.98px) and (max-width: 320px){
-      
+    @media (max-width: 769px) and (max-width: 575.98px){
+     
       #welcome{
         height: 100vh;
         padding: 160px 20px 160px;
@@ -515,7 +515,7 @@ body{
         }
       }
     }
-    @media (max-width: 769px) and (max-width: 575.98px) and (max-width: 320px){
+    @media (max-width: 769px) and (max-width: 575.98px) {
       overflow: hidden;
       padding-top: 50px;
       .container{
